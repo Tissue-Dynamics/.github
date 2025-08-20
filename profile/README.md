@@ -1,6 +1,6 @@
 # 🧬 Tissue Dynamics
 
-**Pioneering personalized medicine through organoid technology and computational biology**
+**Disrupting the world of pharmaceutical development to increase the speed at which we can cure diseases, and make more healthy and happy people.**
 
 ## 🔬 What We Do
 
@@ -19,7 +19,6 @@ We develop cutting-edge tools and analyses for drug discovery and tissue enginee
 
 ### Research Tools
 - [**deep-researcher**](https://github.com/Tissue-Dynamics/deep-researcher) - AI assistant for pharmacokinetic and clinical trial data
-- [**pk-database-automation**](https://github.com/Tissue-Dynamics/pk-database-automation) - Automated PK database population
 - [**402-bpiq-explorer**](https://github.com/Tissue-Dynamics/402-bpiq-explorer) - Interactive data exploration platform
 
 ## 💻 Technology Stack
@@ -27,7 +26,6 @@ We develop cutting-edge tools and analyses for drug discovery and tissue enginee
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![Svelte](https://img.shields.io/badge/Svelte-FF3E00?style=flat&logo=svelte&logoColor=white)
-![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=flat&logo=cloudflare&logoColor=white)
 ![R](https://img.shields.io/badge/R-276DC3?style=flat&logo=r&logoColor=white)
 
 ## 📊 Research Areas
