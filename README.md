@@ -10,6 +10,7 @@ We are attempting to make drugs faster and cheaper for everyone. This centers ar
 - **td-ui** - Shared UI component library for all Tissue Dynamics applications
 - **deployment** - Production deployment and data processing pipelines
 - **td-lab** - Laboratory information management system
+- **tissue-dynamics** - Holds code for the qc and analysis systems as well as the dynamix observability monitor
 
 ### Applications
 - **402-rna-app** - RNA-seq data management and analysis platform
@@ -34,7 +35,7 @@ The primary prefix for Tissue Dynamics projects:
 - `td-lab` - Laboratory management system
 - `td-aging-rnaseq` - Aging research analysis
 
-#### **402-** prefix (Legacy - Shaun's early work)
+#### **402-** prefix (Legacy - Shaun's early/migrated work)
 Projects created during the 402 early period:
 - `402-rna-app` - RNA application (consider renaming to td-rna)
 - `402-bpiq-explorer` - Data exploration tool
@@ -113,68 +114,6 @@ repository/
 
 ## 🔄 Migration Guide
 
-### Renaming Recommendations
-To align with our naming conventions:
-
-#### Consider Renaming (402 → td):
-Since `td-` is the standard prefix and `402-` was early experimental work:
-- `402-rna-app` → Keep as `td-rna` (already created)
-- `402-cloud-manager` → `td-cloud-manager`
-- `402-data-editor` → `td-data-editor` (or archive if not used)
-- `402-bpiq-explorer` → `td-bpiq-explorer`
-
-#### Keep As-Is:
-- **td-** prefixed repos (already following standard)
-- **hu-** prefixed repos (indicates Hebrew University collaboration)
-- **dynamix-** prefixed repos (machine-specific)
-- **organospheres** repos (domain-specific)
-
-### Renaming Process
-
-1. **Safe to rename** (minimal dependencies):
-   - Standalone analysis repos
-   - Internal tools
-   - Documentation repos
-   - Most 402- prefixed repos
-
-2. **Requires coordination** (has dependencies):
-   - `td-ui` (npm package - DO NOT rename)
-   - `deployment` (CI/CD pipelines)
-   - Any repo with webhooks or external integrations
-
-3. **Steps for renaming**:
-   ```bash
-   # Update local remote
-   git remote set-url origin https://github.com/Tissue-Dynamics/new-name
-   
-   # Update package.json if applicable
-   # Update CI/CD configurations
-   # Notify team members
-   # Update any documentation references
-   ```
-
-## 📚 Key Technologies
-
-- **Frontend**: SvelteKit, React, Svelte 5
-- **Backend**: Cloudflare Workers, Node.js, Python
-- **Databases**: Cloudflare D1, PostgreSQL, R2 Storage
-- **ML/AI**: PyTorch, scikit-learn, Claude API
-- **Analysis**: R, Python (pandas, numpy, scipy)
-- **Infrastructure**: AWS, Cloudflare, GitHub Actions
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## 📬 Contact
-
-For questions about our repositories or collaboration opportunities:
-- **GitHub Issues**: Open an issue in the relevant repository
-- **General Inquiries**: Use the [General](https://github.com/Tissue-Dynamics/General) repository
 
 ## 🔒 Privacy & Compliance
 
