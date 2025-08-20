@@ -2,7 +2,7 @@
 
 ## 🧬 Welcome to Tissue Dynamics
 
-We are pioneering the future of drug discovery and tissue engineering through innovative organoid technology and advanced computational analysis. Our repositories contain the tools, analyses, and infrastructure that power our research and development efforts.
+We are attempting to make drugs faster and cheaper for everyone. This centers around creating better disease models, engineering human tissue in the lab, automating manual biological research, and creating amazing software.
 
 ## 🏗️ Repository Architecture
 
@@ -15,24 +15,12 @@ We are pioneering the future of drug discovery and tissue engineering through in
 - **402-rna-app** - RNA-seq data management and analysis platform
 - **organoid-detection-tool** - Desktop application for organoid image analysis
 - **deep-researcher** - AI-powered research assistant for PK values and clinical data
-- **pk-database-automation** - Automated pharmacokinetic database population
-
-### Research & Analysis
-- **td-aging-rnaseq** - Aging-related RNA-seq analysis
-- **402-sanofi-rnaseq** - Sanofi collaboration RNA-seq analysis
-- **402-oddity-skin-aging** - Skin aging target identification
-- **402-ubl5-data** - UBL5 data exploration
 
 ### Papers & Publications
 - **hu-ht-paper** - High-throughput toxicity prediction paper
 - **hu-toxicity-paper-v2** - Improved toxicity prediction methodology
 - **td-smiles-based-liver-tox** - SMILES-based liver toxicity ML/DL models
 - **td-structural-toxicity-prediction** - Molecular encoding methods comparison
-
-### Experimental & Archives
-- **organospheres-research** - Organosphere research experiments
-- **organoid-embedding-experiments** - Embedding methods for oxygen time series
-- **402-pilot-liver-panel** - qPCR liver panel experiments
 
 ## 📋 Repository Naming Conventions
 
@@ -72,36 +60,6 @@ Organosphere-specific projects:
 - `organospheres-detection-tool` - Organosphere detection
 (Note: Some use full "organospheres" without prefix)
 
-### Repository Categories
-
-#### 🔬 **Research Repositories**
-Format: `{prefix}-{topic}-{subtype}`
-- `td-aging-rnaseq`
-- `402-sanofi-rnaseq`
-- `402-oddity-skin-aging`
-
-#### 🛠️ **Tool Repositories**
-Format: `{prefix}-{tool-name}`
-- `organoid-detection-tool`
-- `402-bpiq-explorer`
-- `402-data-editor`
-
-#### 📊 **Data Analysis**
-Format: `{prefix}-{dataset}-{analysis}`
-- `402-ubl5-data`
-- `402-pilot-liver-panel`
-
-#### 📄 **Papers/Publications**
-Format: `{author/collab}-{topic}-paper`
-- `hu-toxicity-paper`
-- `hu-ht-paper`
-
-#### 🏗️ **Infrastructure**
-Clear, descriptive names:
-- `deployment`
-- `402-cloud-manager`
-- `402-cf-secrets-sync`
-
 ## 🚀 Best Practices
 
 ### Repository Setup
@@ -136,7 +94,7 @@ repository/
 ### Security
 - **Never commit secrets** - Use environment variables
 - **Keep sensitive repos private** until ready for publication
-- **Use Cloudflare Secrets** for production credentials
+- **Use secure credential management** for production credentials
 - **Implement proper access controls** in applications
 
 ### Collaboration
